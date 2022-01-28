@@ -1,0 +1,21 @@
+.mainh1{
+  font-size: 2rem;
+}
+main{
+  margin-top: 0;
+  background-color: lightblue;
+}
+main section{
+  border: solid;
+  border-color: grey;
+  border-radius: 5px;
+  text-decoration: none;
+  display:inline-block;
+  grid-column: span 6;
+}
+main section ul li{
+  list-style-type: none;
+}
+.mainh2{
+  font-size: 2rem;
+}

@@ -1,0 +1,19 @@
+.mainh1{
+  font-size: 2rem;
+}
+main{
+  margin-top: 0;
+  background-color: #2e2e2e;
+}
+main section{
+  border-radius: 10px;
+  text-decoration: none;
+  display:inline-block;
+  grid-column: span 6;
+  margin: 1rem;
+  background-color: #2e2e2e;
+}
+main section ul li{
+  list-style-type: none;
+}
+
