@@ -1,19 +1,29 @@
+body{
+  margin-bottom: 0;
+}
 .mainh1{
   font-size: 2rem;
 }
 main{
   margin-top: 0;
-  background-color: #2e2e2e;
+  background-color: #64748b;
 }
 main section{
   border-radius: 10px;
   text-decoration: none;
   display:inline-block;
   grid-column: span 6;
-  margin: 1rem;
-  background-color: #2e2e2e;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background-color: #334155;
+}
+main section ul{
+  padding: 0.1rem;
 }
 main section ul li{
   list-style-type: none;
+  color: #f4f4f4;
 }
-
+.main section{
+  margin-top: 2rem;
+}

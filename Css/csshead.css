@@ -1,11 +1,11 @@
 * {
   font-family: helvetica, sans-serif;
-  margin-top: 0;
   margin-left: 0;
   margin-right: 0;
+  margin-top: 0;
 }
 header{
-  background-color: #262626;
+  background-color: #64748b;
 }
 h1,
 h2 {
@@ -20,6 +20,9 @@ h2 {
 header section nav ul .mark {
   text-align: center;
   margin-right: 3.25%;
+}
+header hgroup h1{
+  padding-top: 1rem;
 }
 header nav ul,
 nav:active ul {
@@ -36,7 +39,8 @@ nav:active ul {
 }
 
 a:hover #topMenuButton {
-  background-color: black;
+  background-color: #94a3b8;
+  transition: 0.5s;
   margin: 0.5rem;
 }
 
@@ -47,7 +51,7 @@ a:hover #topMenuButton {
 }
 
 #topNav ul {
-  background-color: darkolivegreen;
+  background-color: #0f172a;
   padding: 1rem;
 }
 
@@ -64,7 +68,7 @@ a:hover #topMenuButton {
 
 #topNav ul li a {
   display: block;
-  color: white;
+  color: #fafafa;
   text-decoration: none;
   list-style: square;
   padding: 0.5rem;
@@ -81,28 +85,10 @@ a:hover #topMenuButton {
 }
 
 header nav ul li a:hover {
-  background-color: black;
+  background-color: #0f172a;
 }
 
 nav:hover ul {
   display: inline-block;
 }
 
-.dark{
-  background-color: #262626;
-}
-.darkGray{
-  background-color: #2e2e2e;
-}
-.gray{
-  background-color: #404040;
-}
-.lightGray{
-  background-color: #838383;
-} 
-.white{
-  color:#f4f4f4;
-}
-.darkWhite{
-  background-color:#cfcfcf;
-}
